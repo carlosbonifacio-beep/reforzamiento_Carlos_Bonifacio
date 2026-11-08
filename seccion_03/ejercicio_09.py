@@ -28,7 +28,7 @@ class CuentaBancaria:
     def mostrar_saldo(self):
         print(f"Titular: {self.titular} | Saldo final: S/{self.saldo:.2f}")
 
-# Instanciar cuenta con María López y S/500 iniciales
+# Cuenta
 cuenta_maria = CuentaBancaria("María López", 500)
 
 print("\n--- Ejecutando depósitos ---")

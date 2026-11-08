@@ -38,18 +38,18 @@ class Agenda:
         return None
 
 
-# Instanciar la agenda y agregar al menos tres contactos
+# Tres contactos
 mi_agenda = Agenda()
 mi_agenda.agregar_contacto("Carlos Flores", "987654321", "carlos@mail.com", "72345678")
 mi_agenda.agregar_contacto("Ana Gomez", "912345678", "ana@mail.com", "73456789")
 mi_agenda.agregar_contacto("Luis Perez", "998877665", "luis@mail.com", "74567890")
 
-# Intentar duplicar DNI para probar validación
+# Duplicar DNI
 mi_agenda.agregar_contacto("Pedro Copia", "911111111", "pedro@mail.com", "72345678")
 
-# Mostrar la agenda completa
+# Agenda completa
 mi_agenda.mostrar_contactos()
 
-# Ejecutar dos búsquedas: una existente y otra inexistente
+# Ejecutar busqueda
 mi_agenda.buscar_por_dni("73456789")  # Existente
 mi_agenda.buscar_por_dni("00000000")  # Inexistente

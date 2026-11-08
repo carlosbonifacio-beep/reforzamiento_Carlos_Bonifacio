@@ -20,7 +20,7 @@ class Circulo:
         pi = 3.1416
         return 2 * pi * self.radio
 
-# Pruebas con tres objetos (incluyendo uno inválido)
+# Tres objetos
 c1 = Circulo(3)
 c2 = Circulo(5)
 c3 = Circulo(-2)

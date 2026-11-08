@@ -15,12 +15,12 @@ class Alumno:
         else:
             return "Desaprobado"
 
-# Crear al menos tres objetos
+# Tres objetos
 alumno1 = Alumno("Ana", 18, 16)
 alumno2 = Alumno("Luis", 20, 9)
 alumno3 = Alumno("Rosa", 19, 13)
 
-# Almacenar en una lista y recorrerla
+# Almacen
 grupo_alumnos = [alumno1, alumno2, alumno3]
 
 print("Listado general de alumnos:")
